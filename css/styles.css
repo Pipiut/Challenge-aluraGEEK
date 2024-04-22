@@ -1,0 +1,26 @@
+/*HOME*/
+.header__container {
+    display: flex;
+    height: 96px;
+    padding: 20px, 0px, 20px, 0px;
+    background-color: #5300C8;
+    box-shadow: 0px 7px 0.9px 0px #00000040;
+    justify-content: center;
+}
+.logo__container {
+    display: flex;
+    align-items: center;
+}
+.logo__container h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: left;
+    color: #E5E5E5;
+}
+.logo__img {
+    height: 56px;
+    width: 138px;
+}
