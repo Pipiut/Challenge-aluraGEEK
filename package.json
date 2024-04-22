@@ -1,0 +1,19 @@
+{
+  "name": "alura-geek",
+  "version": "1.0.0",
+  "description": "proyecto de aplicacion de conceptos de Javascript como programación asíncrona, solicitudes HTTP, validación de formularios, manipulación del DOM y otros conceptos avanzados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pipiut/Challenge-aluraGEEK.git"
+  },
+  "author": "MAria Cristina Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pipiut/Challenge-aluraGEEK/issues"
+  },
+  "homepage": "https://github.com/Pipiut/Challenge-aluraGEEK#readme"
+}
