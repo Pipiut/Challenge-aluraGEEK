@@ -1,0 +1,67 @@
+.form__section {
+    width: 472px;    
+}
+.form__section h4{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding: 10px 40px;
+}
+.form__add{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+}
+.inputs{
+    width: 392px;
+    height: 58px;
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: left;
+    color: #03318C;
+    border: 3px solid #03318C;
+    border-radius: 15px;
+}
+::placeholder{
+    color: #03318C;
+}
+.button__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+    padding: 0px, 65px, 0px, 65px;
+}
+input[type="submit"], input[type="reset"] {
+    width: 188px;
+    height: 55px;
+    border-radius: 15px;
+    font-family: "IBM Plex Mono";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+input[type="submit"]{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #03318C;
+    border: none;
+    color: #FFFFFF;
+}
+input[type="reset"]{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #03318C;
+    background-color: #FFFFFF;
+    border: 3px solid #03318C;
+}
+
