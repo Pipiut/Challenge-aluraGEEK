@@ -3,7 +3,7 @@
 </p>
 
 # Challenge-aluraGEEK
-<img src="assets/TituloAluraGeek.png" frameborder="0">
+<img width="350" src="assets/TituloAluraGeek.png" frameborder="0">
 </img>
 
 
