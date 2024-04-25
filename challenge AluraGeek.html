@@ -21,21 +21,34 @@
         </div>
     </header>
 
-    <section class="form__section">
-        <h4>AGREGAR PRODUCTO:</h4>
-        <form class="form__add" action="" data-form>
-            
-            <input class="inputs" type="text" placeholder="nombre..." data-nombre>
-            <input class="inputs" type="text" placeholder="precio..." data-precio>
-            <input class="inputs" type="text" placeholder="imagen..." data-imagen>    
-            
-            <div class="button__container">
-              <input class="form__btn" type="submit" value="Enviar" />
-              <input class="form__btn" type="reset" value="Limpiar">
+    <main class="main__container">
+        <section class="products__section">
+            <h4>MIS PRODUCTOS:</h4>
+            <div class="module__product__container">
+                <ul class="module__product__card" data-list>
+                </ul>
+                <ul class="module__product__card" data-list>
+                </ul>
+                <ul class="module__product__card" data-list>
+                </ul>
             </div>
-        </form>
-    </section>    
-    
+        </section>
+
+        <section class="form__section">
+            <h4>AGREGAR PRODUCTO:</h4>
+            <form class="form__add" action="" data-form>
+                
+                <input class="inputs" type="text" placeholder="nombre..." data-nombre>
+                <input class="inputs" type="text" placeholder="precio..." data-precio>
+                <input class="inputs" type="text" placeholder="imagen..." data-imagen>    
+                
+                <div class="button__container">
+                <input class="form__btn" type="submit" value="Enviar" />
+                <input class="form__btn" type="reset" value="Limpiar">
+                </div>
+            </form>
+        </section>    
+    </main>
     <footer>
         <div class="logo__container">
             <img class="logo__img" src="assets/image 1.png" alt="Logo AluraGeek">   
@@ -46,6 +59,10 @@
         </p>
         
     </footer>
+    
+    <script src="js/renderCard.js" type="module"></script>
+    <script src="js/productNew.js" type="module"></script>
+    <script src="js/removeProduct.js" type="module"></script>
     
 </body>
 </html>
