@@ -3,11 +3,11 @@
 </p>
 
 # Challenge-aluraGEEK
-    <iframe src="assets/TituloAluraGeek.png" frameborder="0">
-    </iframe>
+<iframe src="assets/TituloAluraGeek.png" frameborder="0">
+</iframe>
 
 
-![Profile View Counter](https://komarev.com/ghpvc/?username=Pipiut)![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/Pipiut/Challenge-aluraGEEK)
+![Profile View Counter](https://komarev.com/ghpvc/?username=Pipiut)
 
 # descripción-del-proyecto
 <h3 align="left">Description</h3>
