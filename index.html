@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/form.css">
+
+    <title>AluraGeek</title>
+</head>
+<body>    
+    <header class="header__container">
+        <div class="logo__container">
+            <img class="logo__img" src="assets/image 1.png" alt="Logo AluraGeek">   
+            <h1>Alura<span>Geek</span></h1>    
+        </div>
+    </header>
+
+    <main class="main__container">
+        <section class="products__section">
+            <h4>MIS PRODUCTOS:</h4>
+            <div class="module__product__container">
+                <ul class="module__product__card" data-list>
+                </ul>
+                <ul class="module__product__card" data-list>
+                </ul>
+                <ul class="module__product__card" data-list>
+                </ul>
+            </div>
+        </section>
+
+        <section class="form__section">
+            <h4>AGREGAR PRODUCTO:</h4>
+            <form class="form__add" action="" data-form>
+                
+                <input class="inputs" type="text" placeholder="nombre..." data-nombre>
+                <input class="inputs" type="text" placeholder="precio..." data-precio>
+                <input class="inputs" type="text" placeholder="imagen..." data-imagen>    
+                
+                <div class="button__container">
+                <input class="form__btn" type="submit" value="Enviar" />
+                <input class="form__btn" type="reset" value="Limpiar">
+                </div>
+            </form>
+        </section>    
+    </main>
+    <footer>
+        <div class="logo__container">
+            <img class="logo__img" src="assets/image 1.png" alt="Logo AluraGeek">   
+            <h1>AluraGeek</h1>    
+        </div>
+        <p>DESARROLLADO POR MARIA CRISTINA GUTIERREZ<br>
+            <span>ALURA LATAM ONE 6 2024</span>
+        </p>
+        
+    </footer>
+    
+    <script src="js/renderCard.js" type="module"></script>
+    <script src="js/productNew.js" type="module"></script>
+    <script src="js/removeProduct.js" type="module"></script>
+    
+</body>
+</html>
