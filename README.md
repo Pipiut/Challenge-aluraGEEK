@@ -3,8 +3,8 @@
 </p>
 
 # Challenge-aluraGEEK
-<iframe src="assets/TituloAluraGeek.png" frameborder="0">
-</iframe>
+<img src="assets/TituloAluraGeek.png" frameborder="0">
+</img>
 
 
 ![Profile View Counter](https://komarev.com/ghpvc/?username=Pipiut)
