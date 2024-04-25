@@ -24,7 +24,99 @@
     height: 56px;
     width: 138px;
 }
+.main__container{
+    display: flex;
+    padding: 60px 40px 60px 40px;
+    gap: 70px;
+    border-radius: 10px;
+}
+.products__section{
+    overflow: scroll;
+/*     height: 50vh; */
+    gap: 40px;        
+}
+.products__section h4{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 24px;
+    text-align: center;    
+    position: sticky;
+    background-color: #FFFFFF;
+    top: -40px;
+}
+.module__product__container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 115px;
+    box-shadow: -12px 10px 5.8px 0px #00000040;
+}
+.module__product__card{
+    overflow: scroll;
+    display:inline-flex;
+    height: 336px;
+    padding: 0px 0px 10px 0px;
+    gap: 10px;
+}
+.message__title{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 24px;
+    text-align: center;    
 
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    background-color: #5D04D9;
+    border: 3px solid #000000;
+    box-shadow: -5px 6px 3.3px 0px #00000040;
+}
+.card img{
+    width: 176px;
+    height: 174px;
+    border-radius: 10px;
+    gap: 8px;
+    border: 3px solid #000000;
+}
+.card-container--info{
+    height: 21px;
+    font-family: "IBM Plex Mono";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.card-container--value{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 24px;
+    gap: 10px;
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.buttontrash{
+    background-image: url(/assets/trashIcon.png);
+    background-color:  #5300C8;
+    background-size: cover;
+    border: none;  
+    width: 24px;
+    height: 24px;
+}
 footer{
     display: flex;
     flex-direction: column;
@@ -49,4 +141,24 @@ footer span{
     font-weight: 200;
     line-height: 16px;
     text-align: center;
+}
+/*MOVILE*/
+@media screen and (max-width: 769px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        min-width: 550px;
+    }
+    .main__container{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .module__product__card:nth-child(3){
+        display: none;
+    }
+    .products__section{
+        width: 464px;
+    }
+
 }

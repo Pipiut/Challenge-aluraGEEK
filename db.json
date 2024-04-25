@@ -1,0 +1,34 @@
+{
+  "productos": [
+    {
+      "id": "1657",
+      "nombre": "Game Boy",
+      "precio": "1000",
+      "imagen": "https://tse2.mm.bing.net/th?id=OIP.upFycNRZD3xOIAyvEqQMJAAAAA&pid=Api&P=0&h=180"
+    },
+    {
+      "id": "909d2",
+      "nombre": "Nombre del producto",
+      "precio": "200",
+      "imagen": "https://picsum.photos/23"
+    },
+    {
+      "id": "90d92",
+      "nombre": "Game Boy",
+      "precio": "6000",
+      "imagen": "https://tse2.mm.bing.net/th?id=OIP.upFycNRZD3xOIAyvEqQMJAAAAA&pid=Api&P=0&h=180"
+    },
+    {
+      "id": "9d092",
+      "nombre": "nombre...",
+      "precio": "200",
+      "imagen": "https://picsum.photos/2301"
+    },
+    {
+      "id": "b751",
+      "nombre": "Celular",
+      "precio": "$ 500",
+      "imagen": "https://tse2.mm.bing.net/th?id=OIP.od4G4Qn0WEMtXIQV6-v2XgHaFj&pid=Api&P=0&h=180"
+    }
+  ]
+}
